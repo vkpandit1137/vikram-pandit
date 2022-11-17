@@ -1,6 +1,6 @@
 jQuery(document).ready(function () {
   $(".modal-img").slick({
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 200,
     slidesToShow: 1,

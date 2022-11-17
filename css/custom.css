@@ -642,7 +642,7 @@ button.stroke,
 }
 /* The Close Button */
 .close {
-  color: white;
+  color: #111111;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -659,7 +659,7 @@ button.stroke,
   cursor: pointer;
 }
 .modal-text-div {
-  padding: 20px;
+  /* padding: 20px; */
   padding-top: 0px;
 }
 .modal-text-head h4 {
@@ -759,6 +759,26 @@ button.stroke,
   .modal-content {
     width: 80%;
   }
+  .close {
+    top: 0px;
+  }
+  .slick-prev,
+  .slick-next {
+    width: 30px !important;
+    height: 30px !important;
+    background-color: #111111 !important;
+    z-index: 999;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 16px !important;
+  }
+  .slick-prev {
+    left: -2px !important;
+  }
+  .slick-next {
+    right: -2px !important;
+  }
 }
 @media only screen and (max-width: 640px) {
   /* .modal-img span{
@@ -771,5 +791,31 @@ button.stroke,
   }
   .modal {
     align-items: center;
+  }
+}
+@media only screen and (min-width: 721px) {
+  /* .modal-img span{
+					position: absolute;
+					right: 20px;
+					top:50px;
+				  } */
+
+  /* Slick SLider */
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 30px !important;
+  }
+  .slick-prev {
+    left: -2px !important;
+  }
+  .slick-next {
+    right: -2px !important;
+  }
+  .slick-prev,
+  .slick-next {
+    width: 50px !important;
+    height: 50px !important;
+    background-color: #111111 !important;
+    z-index: 999;
   }
 }
