@@ -1,7 +1,3 @@
-jQuery(window).load(function () {
-  jQuery("#ftco-loader").fadeOut("slow");
-});
-
 jQuery(document).ready(function () {
   $(".modal-img").slick({
     dots: false,
