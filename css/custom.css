@@ -803,7 +803,7 @@ button.stroke,
   /* Slick SLider */
   .slick-prev:before,
   .slick-next:before {
-    font-size: 30px !important;
+    font-size: 25px !important;
   }
   .slick-prev {
     left: -2px !important;
@@ -813,9 +813,19 @@ button.stroke,
   }
   .slick-prev,
   .slick-next {
-    width: 50px !important;
-    height: 50px !important;
+    width: 42px !important;
+    height: 42px !important;
     background-color: #111111 !important;
     z-index: 999;
   }
+}
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url("https://lkp.dispendik.surabaya.go.id/assets/loading.gif") 50%
+    50% no-repeat rgb(249, 249, 249);
 }
