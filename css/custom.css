@@ -766,7 +766,7 @@ button.stroke,
   .slick-next {
     width: 30px !important;
     height: 30px !important;
-    background-color: #111111 !important;
+    background-color: #313131 !important;
     z-index: 999;
   }
   .slick-prev:before,
@@ -815,7 +815,7 @@ button.stroke,
   .slick-next {
     width: 42px !important;
     height: 42px !important;
-    background-color: #111111 !important;
+    background-color: #313131 !important;
     z-index: 999;
   }
 }
