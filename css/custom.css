@@ -533,8 +533,8 @@ button.stroke,
 }
 
 .project-div {
-  padding: 0px !important;
   position: relative;
+  margin-bottom: 30px;
 }
 .project-div img {
   object-fit: cover;
@@ -791,6 +791,9 @@ button.stroke,
   }
   .modal {
     align-items: center;
+  }
+  .project-div {
+    padding: 0px !important;
   }
 }
 @media only screen and (min-width: 721px) {
