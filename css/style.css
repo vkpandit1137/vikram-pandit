@@ -33,10 +33,12 @@
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
+ 
     Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
+    font-display: swap;
 }
 
 *,
@@ -48,6 +50,7 @@
 
 html {
   font-family: sans-serif;
+  font-display: swap;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -72,6 +75,7 @@ body {
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
+  font-display: swap;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -210,6 +214,7 @@ samp {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
     "Courier New", monospace;
   font-size: 1em;
+  font-display: swap;
 }
 
 pre {
@@ -269,6 +274,7 @@ optgroup,
 textarea {
   margin: 0;
   font-family: inherit;
+  font-display: swap;
   font-size: inherit;
   line-height: inherit;
 }
@@ -6380,6 +6386,7 @@ a.close.disabled {
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
+  font-display: swap;
   font-weight: 400;
   line-height: 1.5;
   text-align: left;
@@ -6496,6 +6503,7 @@ a.close.disabled {
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
+  font-display: swap;
   font-weight: 400;
   line-height: 1.5;
   text-align: left;
@@ -10325,6 +10333,7 @@ button.bg-dark:focus {
 .text-monospace {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
     "Courier New", monospace !important;
+    font-display: swap;
 }
 
 .text-justify {
@@ -10646,6 +10655,7 @@ a.text-dark:focus {
 body {
   font-family: "Poppins", Arial, sans-serif;
   background: #000000;
+  font-display: swap;
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;

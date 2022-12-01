@@ -2,7 +2,7 @@ jQuery(document).ready(function () {
   $(".modal-img").slick({
     dots: false,
     infinite: true,
-    speed: 200,
+    // speed: 200,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
