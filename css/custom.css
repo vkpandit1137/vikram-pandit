@@ -865,3 +865,26 @@ button.stroke,
   display: flex;
   text-align: justify;
 }
+.modal_feature h6 {
+  margin-bottom: 2px;
+}
+.modal_feature ul {
+  color: white;
+  padding-left: 20px;
+  font-size: 14px;
+}
+.modal_feature-h {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  margin-top: 15px !important;
+  margin-bottom: 10px !important;
+}
+.modal_anchor {
+  margin-top: 15px;
+  background-color: transparent;
+  border: 1px solid #ffbd39;
+  border-radius: 8px;
+  padding: 9px 15px;
+  color: #ffbd39;
+  font-size: 14px;
+}
