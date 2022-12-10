@@ -477,10 +477,10 @@ textarea.form-control {
   background-color: #0069d9;
   border-color: #0062cc;
 } */
-.btn-primary:focus {
+/* .btn-primary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
   box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
-}
+} */
 .btn-primary:disabled {
   color: #fff;
   background-color: #007bff;
@@ -492,11 +492,11 @@ textarea.form-control {
   background-color: #0062cc;
   border-color: #005cbf;
 } */
-.btn-primary:not(:disabled):not(.disabled):active:focus,
+/* .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
   box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
-}
+} */
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn-secondary:not(:disabled):not(.disabled).active {
   color: #fff;
@@ -524,6 +524,9 @@ textarea.form-control {
   color: #fff;
   background-color: #117a8b;
   border-color: #10707f;
+}
+.hire-me {
+  cursor: pointer;
 }
 .btn-info:not(:disabled):not(.disabled):active:focus,
 .btn-info:not(:disabled):not(.disabled).active:focus {
@@ -768,7 +771,6 @@ textarea.form-control {
   font-size: 24px;
 }
 
-
 @media (max-width: 1199.98px) {
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link span {
     display: inline-block;
@@ -853,7 +855,6 @@ textarea.form-control {
     color: #ffbd39;
   }
 }
-
 
 .nav {
   display: -webkit-box;
@@ -1630,7 +1631,7 @@ textarea.form-control {
 
 .ftco-section {
   padding: 7em 0;
-  position: relative;
+  /* position: relative; */
 }
 @media (max-width: 767.98px) {
   .ftco-section {
