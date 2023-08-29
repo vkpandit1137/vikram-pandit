@@ -36,14 +36,14 @@ try {
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'thedebugarena@gmail.com';                     //SMTP username
-    $mail->Password   = 'phpwjvbpqexlqswa';                               //SMTP password
+    $mail->Username   = 'vkpandit1909@gmail.com';                     //SMTP username
+    $mail->Password   = 'yeclotwowlpajbzz';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('from@example.com', 'Mailer');
-    $mail->addAddress('adarshthakur210@gmail.com', 'Joe User');     //Add a recipient
+    $mail->setFrom('techluminix@gmail.com', 'TechLuminix Admin');
+    $mail->addAddress('vkpandit1909@gmail.com', 'Vikram Pandit');     //Add a recipient
     // $mail->addAddress('ellen@example.com');               //Name is optional
    
 
@@ -52,7 +52,7 @@ try {
     $message= json_encode($data);
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'Here is the subject';
+    $mail->Subject = 'New form submission';
     $mail->Body    = $message;
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
