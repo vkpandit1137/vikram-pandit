@@ -7,8 +7,6 @@ if(isset($_POST['data']))
         "email" => $searcharray['email'],
         "subject" => $searcharray['subject'],
         "message" => $searcharray['message']
-
-
     );
     $response=array(
         "success" => "Thank You, We will get back to you soon!!",
